@@ -51,6 +51,7 @@ I am not sure if providing all the information to make your own modded UI is a g
  Yes you can, but please credit me if you publish it (unless you changed everything of course)
  To use my files, simply change the HTML code and execute index.js to generate all the .BMP files automatically.
  You need to at least know how to use HTML and CSS in order to make your own version from my files.
+ Please note that I made all of this very quickly, I know the code is bad.
  
  ### I made my own version, I have the .BMP files, how do I go from that to a usable .bin and .icl files?
  Please refer to `Other things to know`
