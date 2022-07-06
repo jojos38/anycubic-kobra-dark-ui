@@ -1,5 +1,5 @@
 # Ancubic Kobra Dark UI
-A dark and improved UI for the Anycubic Kobra 3d printer
+A dark and improved UI for the Anycubic Kobra 3d printer (ONLY the Anycubic Kobra)
 
 ### Disclaimer
 I am not responsible for any damage or malfunction caused to your printer because of those files. Any modding made to your printer is made at your own risk, this includes any damage that could happen in real life.
