@@ -7,6 +7,13 @@ I am not responsible for any damage or malfunction caused to your printer becaus
 ### Description
 I happened to use the printer quite often in the dark and the default white UI was occasionally killing my soul so I decided to make this improved dark UI. It provides better translations, more explicit buttons and much more...
 
+![Preview 1](https://i.ibb.co/pRTJzXQ/121.png)
+![Preview 2](https://i.ibb.co/fMq9QhM/122.png)
+![Preview 3](https://i.ibb.co/zfGxMkp/128.png)
+![Preview 4](https://i.ibb.co/XWwMxmf/135.png)
+![Preview 5](https://i.ibb.co/txrfPN1/137.png)
+![Preview 6](https://i.ibb.co/jvkBcLq/153.png)
+
 ### Features
 - Brand new UI look with a dark theme
 - Starting animation shortened to remove the fading to white
