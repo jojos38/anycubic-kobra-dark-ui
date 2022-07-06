@@ -1,0 +1,90 @@
+<head>
+	<title>Anycubic Interface</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<html lang="en">
+	<!-- <img class="template-image" src="../templates/6.bmp" alt="preview"> -->
+	<img class="template-image" style="margin-left: 272px;" src="../templates/6.bmp" alt="preview">
+	<div id="container">
+		<!-- Top bar -->
+		<div class="top-bar">
+			<svg class="icon back-button"><use xlink:href="../images/back.svg#icon"></use></svg>
+			<p class="page-title">Input</p>
+		</div>
+		<hr class="top-bar-hr" />
+		<div id="bottom-container">
+
+
+			<div id="back-button-centerer" style="padding-bottom: 3px; justify-content: flex-end;">
+				<div class="text-field mb-10" style="width: 100%; height: 45px;"></div>
+				<!-- Smol buttons -->
+				<div class="smol-buttons-container">
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>1</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>2</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>3</p></div>
+				</div>
+				<div class="smol-buttons-container">
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>4</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>5</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>6</p></div>
+				</div>
+				<div class="smol-buttons-container">
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>7</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>8</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>9</p></div>
+				</div>
+				<div class="smol-buttons-container">
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button disabled"><p>.</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button"><p>0</p></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-outline-button smol-button disabled"><p>-</p></div>
+				</div>
+				<div class="smol-buttons-container">
+					<div class=".smol-button"></div>
+					<div class=".smol-button"></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-button smol-button">
+						<svg class="icon kobra-button-icon" style="margin: 0; height: 25px;"><use xlink:href="../images/delete.svg#icon"></use></svg>
+					</div>
+				</div>
+			</div>
+
+			<!-- Confirm button -->
+			<div class="kobra-button kobra-button-flat kobra-purple-button">
+				<svg class="icon kobra-button-icon" style="height: 23px;"><use xlink:href="../images/confirm.svg#icon"></use></svg>
+				<p class="kobra-button-text">Confirm</p>
+			</div>
+
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/ruler.js"></script>
+
+	<style>
+		.smol-buttons-container {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+		}
+
+		.smol-button {
+			min-height: 48px;
+			height: 48px;
+			width: 78px;
+			margin-bottom: 10px;
+		}
+
+		.smol-button p {
+			font-size: 20px;
+		}
+
+		.smol-button .kobra-button-icon {
+			position: initial;
+			width: 30px;
+			height: 30px;
+		}
+	</style>
+</html>

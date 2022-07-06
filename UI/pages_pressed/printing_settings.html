@@ -1,0 +1,74 @@
+<head>
+	<title>Anycubic Interface</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<html lang="en">
+	<!-- <img class="template-image" src="../templates/125.bmp" alt="preview"> -->
+	<img class="template-image" style="margin-left: 272px;" src="../templates/125.bmp" alt="preview">
+	<div id="container">
+		<!-- Top bar -->
+		<div class="top-bar" style="background: var(--purple-button-gradient);">
+			<svg class="icon back-button pressed" onclick="window.location = 'printing.html'" style="margin: 0;"><use xlink:href="../images/back.svg#icon"></use></svg>
+			<p class="page-title">Print Settings</p>
+		</div>
+		<hr class="top-bar-hr" />
+		<div id="bottom-container">
+
+
+			<div id="back-button-centerer">
+				<!-- Text fields -->
+				<p class="text-field-description">Nozzle Temp</p>
+				<div class="text-field mb-10"></div>
+
+				<p class="text-field-description">Bed Temp</p>
+				<div class="text-field mb-10"></div>
+
+				<p class="text-field-description">Print Rate</p>
+				<div class="text-field mb-10">
+					<p class="text-field-description percentage">%</p>
+				</div>
+
+				<p class="text-field-description">Fan Speed</p>
+				<div class="text-field mb-10">
+					<p class="text-field-description percentage">%</p>
+				</div>
+
+				<p class="text-field-description">Z-offset</p>
+				<div class="mp-button-container">
+					<div class="kobra-button kobra-button-flat kobra-purple-button pressed">
+						<p class="kobra-button-text">-</p>
+					</div>
+					<div class="text-field"></div>
+					<div class="kobra-button kobra-button-flat kobra-purple-button pressed">
+						<p class="kobra-button-text">+</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Back button -->
+			<div class="kobra-button kobra-button-flat kobra-purple-button pressed" style="margin-top: 20px;">
+				<svg class="icon kobra-button-icon" style="height: 23px;"><use xlink:href="../images/back.svg#icon"></use></svg>
+				<p class="kobra-button-text">Back</p>
+			</div>
+
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/ruler.js"></script>
+
+	<style>
+		.text-field {
+			height: 37px;
+			width: 132px;
+		}
+
+		.percentage {
+			margin-top: 10px;
+		}
+	</style>
+</html>

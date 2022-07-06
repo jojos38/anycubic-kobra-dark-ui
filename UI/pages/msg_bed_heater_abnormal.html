@@ -1,0 +1,50 @@
+<head>
+	<title>Anycubic Interface</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<html lang="en">
+<!-- <img class="template-image" src="../templates/190.jpg" alt="preview"> -->
+<img class="template-image" style="margin-left: 272px;" src="../templates/190.jpg" alt="preview">
+<div id="container">
+	<!-- Top bar -->
+	<div class="top-bar" style="background: var(--red-button-gradient)">
+		<svg class="top-bar-icon bed-heat-icon"><use xlink:href="../images/bed_heat.svg#icon"></use></svg>
+		<p class="top-bar-text bed-heat-text">°C</p>
+		<svg class="top-bar-icon nozzle-heat-icon"><use xlink:href="../images/nozzle.svg#icon"></use></svg>
+		<p class="top-bar-text nozzle-heat-text">°C</p>
+	</div>
+	<hr class="top-bar-hr" />
+	<div id="bottom-container">
+
+
+		<div class="card">
+			<div class="card-header" style="background: var(--red-button-gradient)"></div>
+			<div class="card-body">
+				<div class="card-text">
+					<p>The bed heater is abnormal, please check the wiring</p>
+				</div>
+				<div class="card-buttons">
+					<div class="kobra-button kobra-button-flat kobra-red-button">
+						<p class="kobra-button-text">Confirm</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+<script type="text/javascript" src="../js/ruler.js"></script>
+
+<style>
+	.text-field {
+		height: 37px;
+		width: 100%;
+	}
+</style>
+</html>

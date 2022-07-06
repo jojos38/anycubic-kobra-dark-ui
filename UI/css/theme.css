@@ -1,0 +1,38 @@
+:root {
+    /* --------- Background --------- */
+    --background-color: #1b1d21;
+    --background-lighter: #2b2d31;
+
+    /* --------- Top bar --------- */
+    --top-bar-color: #eeeeee;
+
+    /* --------- Text --------- */
+    --text-color: #eeeeee;
+
+    /* --------- Buttons --------- */
+    --border-radius: 7px;
+
+    --purple-button-icon: #f8c4ff;
+    --purple-button-text: #f8c4ff;
+    --purple-button-gradient: linear-gradient(90deg, #9659cb 0%, #7d328f 100%);
+    --purple-button-outline: #9659cb;
+    --purple-button-pressed: #52205e;
+
+    --green-button-icon: #daffda;
+    --green-button-text: #daffda;
+    --green-button-gradient: linear-gradient(90deg, #39a914 0%, #35cc0f 100%);
+    --green-button-pressed: #146c1c;
+
+    --blue-button-icon: #b9f5ff;
+    --blue-button-text: #b9f5ff;
+    --blue-button-gradient: linear-gradient(90deg, #106ad3 0%, #0088e8 100%);
+    --blue-button-outline: #00b3ff;
+    --blue-button-pressed: #0070ad;
+
+    --orange-button-icon: #ffe3cd;
+    --orange-button-text: #ffe3cd;
+    --orange-button-gradient: linear-gradient(90deg, #d75f00 0%, #f58111 100%);
+    --orange-button-pressed: #c84600;
+
+    --red-button-gradient: linear-gradient(90deg, #c50000 0%, #ff3939 100%);
+}

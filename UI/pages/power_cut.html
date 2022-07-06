@@ -1,0 +1,60 @@
+<head>
+	<title>Anycubic Interface</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<html lang="en">
+<!-- <img class="template-image" src="../templates/173.bmp" alt="preview"> -->
+<img class="template-image" style="margin-left: 272px;" src="../templates/173.bmp" alt="preview">
+<div id="container">
+	<!-- Top bar -->
+	<div class="top-bar" style="background: var(--red-button-gradient)">
+		<p class="page-title">Power cut</p>
+	</div>
+	<hr class="top-bar-hr" />
+	<div id="bottom-container">
+
+		<div id="back-button-centerer">
+			<p style="font-size: 17px; margin: 0;">Oops!</p>
+			<p style="font-size: 15px; margin-top: 2px; text-align: center;">An unexpected power cut happened during your print.</p>
+
+			<p class="text-field-description">Progress</p>
+			<div class="text-field mb-10">
+				<p class="text-field-description percentage">%</p>
+			</div>
+			<p class="text-field-description">File</p>
+			<div class="text-field" style="margin-bottom: 20px; width: 100%;"></div>
+
+			<!-- Temperature button -->
+			<div class="kobra-button kobra-button-flat kobra-purple-button mb-10">
+				<svg class="icon kobra-button-icon"><use xlink:href="../images/resume_circle.svg#icon"></use></svg>
+				<p class="kobra-button-text">Resume the print</p>
+			</div>
+		</div>
+
+		<!-- Speed button -->
+		<div class="kobra-button kobra-button-flat kobra-green-button mb-10">
+			<svg class="icon kobra-button-icon"><use xlink:href="../images/stop_circle.svg#icon"></use></svg>
+			<p class="kobra-button-text">Stop the print</p>
+		</div>
+
+
+	</div>
+</div>
+
+<script type="text/javascript" src="../js/ruler.js"></script>
+
+<style>
+	.text-field {
+		height: 37px;
+		width: 132px;
+	}
+
+	.percentage {
+		margin-top: 10px;
+	}
+</style>
+</html>

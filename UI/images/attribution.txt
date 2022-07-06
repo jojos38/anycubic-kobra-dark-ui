@@ -1,0 +1,39 @@
+printing.svg https://thenounproject.com/delwar/
+prepare.svg https://thenounproject.com/delwar/
+control.svg https://thenounproject.com/icon/control-1147860/
+settings.svg https://thenounproject.com/joe.pictos/
+
+up.svg https://thenounproject.com/theiconz/
+down.svg  https://thenounproject.com/theiconz/
+refresh.svg https://thenounproject.com/matiq3590/
+back.svg https://thenounproject.com/puasanditadu/
+delete.svg https://thenounproject.com/papergarden1/
+confirm.svg https://thenounproject.com/Becris/
+
+up_arrow.svg https://thenounproject.com/rose-alice-design/
+down_arrow.svg https://thenounproject.com/rose-alice-design/
+left_arrow.svg https://thenounproject.com/rose-alice-design/
+right_arrow.svg https://thenounproject.com/rose-alice-design/
+
+axis.svg https://thenounproject.com/hayatstudio10/
+temperature.svg https://thenounproject.com/tulpahn/
+cooling.svg https://thenounproject.com/coquet_adrien/
+speed.svg https://thenounproject.com/coquet_adrien/
+motor.svg https://thenounproject.com/rshashank19/
+
+resume.svg https://thenounproject.com/poups0122/
+pause.svg https://thenounproject.com/poups0122/
+stop.svg https://thenounproject.com/poups0122/
+
+nozzle.svg https://thenounproject.com/delwar/
+bed_heat.svg https://thenounproject.com/coquet_adrien/
+
+language.svg https://thenounproject.com/lareadesign/
+audio.svg https://thenounproject.com/coquet_adrien/
+audio_muted.svg https://thenounproject.com/coquet_adrien/
+information.svg https://thenounproject.com/mrkbonmrk/
+
+leveling.svg https://thenounproject.com/joe.pictos/
+filament.svg https://thenounproject.com/suncheli.project/
+filament_outline.svg https://thenounproject.com/suncheli.project/
+zoffset.svg https://thenounproject.com/coquet_adrien/

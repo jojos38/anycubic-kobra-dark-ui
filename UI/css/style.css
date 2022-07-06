@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/* --------------------- GLOBAL --------------------- */
+#bottom-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 416px;
+}
+
+#back-button-centerer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.icon {
+    fill: #C884FF;
+}
+
+p {
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+
+/* --------------------- TOP BAR --------------------- */
+.top-bar {
+    background-color: #26282C;
+    height: 43px;
+    width: 272px;
+    display: flex;
+}
+
+.top-bar-hr {
+    background-color: #4A4A4A;
+    border: none;
+    width: 272px;
+    height: 1px;
+    margin: 0;
+}
+
+.top-bar-icon {
+    height: 25px;
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    fill: var(--top-bar-color);
+}
+
+.top-bar-text {
+    color: var(--top-bar-color);
+}
+
+.bed-heat-icon { margin-left: 20px; }
+.bed-heat-text { margin-left: 35px; }
+
+.nozzle-heat-icon {
+    margin-left: 78px;
+    height: 20px;
+    width: 20px;
+}
+.nozzle-heat-text { margin-left: 42px; }
+
+.back-button {
+    position: absolute;
+    height: 39px;
+    width: 39px;
+    left: 230px;
+    top: 2px;
+    fill: var(--top-bar-color);
+    padding: 7px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.back-button.pressed {
+    border-radius: var(--border-radius);
+    background-color: rgba(50, 50, 50, 0.4);
+}
+
+.page-title {
+    margin: auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--top-bar-color);
+}
+
+
+
+/* --------------------- BUTTONS --------------------- */
+.kobra-button {
+    border-radius: var(--border-radius);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.kobra-button-icon {
+    height: 50%;
+}
+
+.kobra-button-text {
+    margin: 5px 0 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+/* --------------------- PURPLE --------------------- */
+.kobra-purple-button {
+    background: var(--purple-button-gradient);
+    color: var(--purple-button-text);
+}
+
+.kobra-purple-outline-button {
+    border: 2px solid var(--purple-button-outline);
+    color: var(--purple-button-text);
+}
+
+.kobra-purple-button .kobra-button-icon,
+.kobra-purple-outline-button .kobra-button-icon {
+    fill: var(--purple-button-icon);
+}
+
+.kobra-purple-button.pressed,
+.kobra-purple-outline-button.pressed {
+    background: var(--purple-button-pressed);
+    border-color: var(--purple-button-pressed);
+}
+
+/* --------------------- GREEN --------------------- */
+.kobra-green-button {
+    background: var(--green-button-gradient);
+    color: var(--green-button-text);
+}
+
+.kobra-green-button .kobra-button-icon {
+    fill: var(--green-button-icon);
+}
+
+.kobra-green-button.pressed {
+    background: var(--green-button-pressed);
+    border-color: var(--green-button-pressed);
+}
+
+/* --------------------- BLUE --------------------- */
+.kobra-blue-button {
+    background: var(--blue-button-gradient);
+    color: var(--blue-button-text);
+}
+
+.kobra-blue-outline-button {
+    border: 2px solid var(--blue-button-outline);
+    color: var(--blue-button-text);
+}
+
+.kobra-blue-button .kobra-button-icon,
+.kobra-blue-outline-button .kobra-button-icon {
+    fill: var(--blue-button-icon);
+}
+
+.kobra-blue-button.pressed,
+.kobra-blue-outline-button.pressed {
+    background: var(--blue-button-pressed);
+    border-color: var(--blue-button-pressed);
+}
+
+/* --------------------- ORANGE --------------------- */
+.kobra-orange-button {
+    background: var(--orange-button-gradient);
+    color: var(--orange-button-text);
+}
+
+.kobra-orange-button .kobra-button-icon {
+    fill: var(--orange-button-icon);
+}
+
+.kobra-orange-button.pressed {
+    background: var(--orange-button-pressed);
+    border-color: var(--orange-button-pressed);
+}
+
+/* --------------------- RED --------------------- */
+.kobra-red-button {
+    background: var(--red-button-gradient);
+}
+
+/* --------------------- FLAT BUTTONS --------------------- */
+.kobra-button-flat {
+    flex-direction: row;
+    height: 44px;
+    min-height: 44px;
+    width: 100%;
+}
+
+.bigger-button {
+    height: 55px;
+    min-height: 55px;
+}
+
+.kobra-button-flat .kobra-button-text {
+    margin: 0;
+}
+
+.kobra-button-flat .kobra-button-icon {
+    position: absolute;
+    left: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+/* --------------------- MINUS / PLUS BUTTONS --------------------- */
+.mp-button-container {
+    display: flex;
+}
+
+.mp-button-container .kobra-button {
+    width: 45px;
+    height: 37px;
+    min-height: 37px;
+}
+
+.mp-button-container .kobra-button:first-child {
+    margin-right: 5px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.mp-button-container .kobra-button:last-child {
+    margin-left: 5px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.mp-button-container .text-field {
+    border-radius: 2px;
+}
+
+
+
+/* --------------------- TEXT FIELDS --------------------- */
+.dual-field-container {
+    display: flex;
+    justify-content: center;
+}
+
+.dual-field-container .text-field {
+    width: 123px;
+    height: 37px;
+}
+
+.dual-field-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dual-field-container > div:last-child {
+    margin-left: 6px
+}
+
+.text-field {
+    border-radius: var(--border-radius);
+    background-color: var(--background-lighter);
+    justify-content: center;
+    display: flex;
+}
+
+.text-field-description {
+    margin: 0 0 2px 0;
+}
+
+.percentage {
+    margin-left: 50px;
+    margin-top: 4px;
+}
+
+
+
+/* --------------------- CARD --------------------- */
+.card {
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.card-header p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.card-body {
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-lighter);
+    flex-direction: column;
+    display: flex;
+    min-height: 90px;
+    padding: 10px;
+}
+
+.card-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.card-text p {
+    margin: 0;
+    text-align: center;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-buttons .kobra-button {
+    height: 40px;
+    min-height: 40px;
+    width: 110px;
+}
+
+.card-buttons .kobra-button:not(:first-child) {
+    margin-left: 10px;
+}

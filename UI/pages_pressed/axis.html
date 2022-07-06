@@ -1,0 +1,113 @@
+<head>
+	<title>Anycubic Interface</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/template.css">
+	<link rel="stylesheet" type="text/css" href="../css/theme.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<html lang="en">
+<!-- <img class="template-image" src="../templates/162.bmp" alt="preview"> -->
+<img class="template-image" style="margin-left: 272px;" src="../templates/162.bmp" alt="preview">
+<div id="container">
+	<!-- Top bar -->
+	<div class="top-bar" style="background: var(--blue-button-gradient)">
+		<svg class="icon back-button pressed"><use xlink:href="../images/back.svg#icon"></use></svg>
+		<p class="page-title">Move Axes</p>
+	</div>
+	<hr class="top-bar-hr" />
+	<div id="bottom-container">
+
+		<div class="mm-container">
+			<div class="kobra-button kobra-button-flat kobra-blue-outline-button mm-button pressed">
+				<p class="kobra-button-text">0.1mm</p>
+			</div>
+			<div class="kobra-button kobra-button-flat kobra-blue-outline-button mm-button pressed">
+				<p class="kobra-button-text">1mm</p>
+			</div>
+			<div class="kobra-button kobra-button-flat kobra-blue-outline-button mm-button pressed">
+				<p class="kobra-button-text">10mm</p>
+			</div>
+		</div>
+
+		<div style="display: flex; margin-bottom: 18px;">
+			<div class="controls-container">
+				<div class="kobra-button control-button kobra-blue-outline-button pressed">
+					<svg class="icon kobra-button-icon"><use xlink:href="../images/up_arrow.svg#icon"></use></svg>
+				</div>
+				<div style="display: flex; justify-content: space-between; width: 100%;">
+					<div class="kobra-button control-button kobra-blue-outline-button pressed">
+						<svg class="icon kobra-button-icon"><use xlink:href="../images/left_arrow.svg#icon"></use></svg>
+					</div>
+					<div class="kobra-button control-button kobra-blue-outline-button pressed">
+						<svg class="icon kobra-button-icon"><use xlink:href="../images/right_arrow.svg#icon"></use></svg>
+					</div>
+				</div>
+				<div class="kobra-button control-button kobra-blue-outline-button pressed">
+					<svg class="icon kobra-button-icon"><use xlink:href="../images/down_arrow.svg#icon"></use></svg>
+				</div>
+			</div>
+			<div style="margin-left: 30px; margin-right: 10px;">
+				<div class="kobra-button control-button kobra-blue-outline-button pressed">
+					<svg class="icon kobra-button-icon"><use xlink:href="../images/up_arrow.svg#icon"></use></svg>
+				</div>
+				<div class="kobra-button control-button kobra-blue-outline-button pressed" style="margin-top: 100%;">
+					<svg class="icon kobra-button-icon"><use xlink:href="../images/down_arrow.svg#icon"></use></svg>
+				</div>
+			</div>
+		</div>
+
+		<!-- Print button -->
+		<div class="kobra-button kobra-button-flat kobra-blue-button pressed mb-10">
+			<svg class="icon kobra-button-icon"><use xlink:href="../images/control.svg#icon"></use></svg>
+			<p class="kobra-button-text">Home X-axis</p>
+		</div>
+		<div class="kobra-button kobra-button-flat kobra-blue-button pressed mb-10">
+			<svg class="icon kobra-button-icon"><use xlink:href="../images/control.svg#icon"></use></svg>
+			<p class="kobra-button-text">Home Y-axis</p>
+		</div>
+		<div class="kobra-button kobra-button-flat kobra-blue-button pressed mb-10">
+			<svg class="icon kobra-button-icon"><use xlink:href="../images/control.svg#icon"></use></svg>
+			<p class="kobra-button-text">Home Z-axis</p>
+		</div>
+		<div class="kobra-button kobra-button-flat kobra-blue-button pressed">
+			<svg class="icon kobra-button-icon"><use xlink:href="../images/control.svg#icon"></use></svg>
+			<p class="kobra-button-text">Home All</p>
+		</div>
+
+
+	</div>
+</div>
+
+<script type="text/javascript" src="../js/ruler.js"></script>
+
+<style>
+	.controls-container {
+		width: 134px;
+		height: 134px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.control-button {
+		width: 44px;
+		height: 44px;
+		min-height: 44px;
+	}
+
+	.mm-container {
+		display: flex;
+		width: 100%;
+		justify-content: space-evenly;
+		margin-bottom: 18px;
+	}
+
+	.mm-button {
+		min-height: 38px;
+		height: 38px;
+		width: 70px;
+	}
+</style>
+</html>
