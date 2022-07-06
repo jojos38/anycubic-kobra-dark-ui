@@ -47,6 +47,9 @@ I am not sure if providing all the information to make your own modded UI is a g
  I have no idea if updating the screen firmware by itself is risky or not, maybe turning off the printer while it's updating could brick it, I don't know.
  That being said, the potentials risks of using the custom UI itself could be that I did something wrong causing the printer to not behave as expected. You should always keep that in mind when installing this UI and read the disclaimer at the beginning.
  
+ ### I was using your firmware and I saw a gray page with a number on the top left
+ This means that I forgot to make a page. If this happens please open a bug report on Github and provide the number that you saw on the top left and **what you did so that it happened**.
+ 
  ### Can I modify your files to make my own version?
  Yes you can, but please credit me if you publish it (unless you changed everything of course)
  To use my files, simply change the HTML code and execute index.js to generate all the .BMP files automatically.
