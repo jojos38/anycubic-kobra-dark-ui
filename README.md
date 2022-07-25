@@ -1,4 +1,4 @@
-# Ancubic Kobra Dark UI
+# Anycubic Kobra Dark UI
 A dark and improved UI for the Anycubic Kobra 3d printer (ONLY the Anycubic Kobra)
 
 ### Disclaimer
