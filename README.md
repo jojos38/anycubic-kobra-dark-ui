@@ -22,6 +22,7 @@ I happened to use the printer quite often in the dark and the default white UI w
 - Much better image compression for less artifacts (The default UI was really bad)
 
 ### Known issues
+Note: These issues are not planned to be fixed (The first two requires motherboard firmware modification from my understanding which is beyond my knowledge)
 - The file selection menu text becomes blue after being deselected instead of white
 - The number input page input text is blue instead of white
 - The UI is only available in english, the language button was disabled
