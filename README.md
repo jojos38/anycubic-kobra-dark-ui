@@ -45,7 +45,7 @@ Here is my Discord: jojos38#1337
  3. Turn off your printer and put the SD card **under the screen**, not in the printer the body
  4. Turn on your printer and wait until you see `SD card Process... END !` on the second line, do NOT turn off the printer before this line appears. The process shoudn't take more than 5 minutes unless your SD card is broken or very slow
  5. Make sure the number next to .BIN Files shows `003` and the number next to .ICL Files `001`
- 6. Turn off your printer, remove the SD card
+ 6. Turn off your printer, remove the SD card, make sure to leave it unplugged for 10 - 20 seconds to make sure the caps can discharge (Thanks to SineVVAVz for the tip)
  7. Done, you can turn it on
  
  # FAQ
