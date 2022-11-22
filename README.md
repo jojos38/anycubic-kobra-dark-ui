@@ -25,7 +25,7 @@ I happened to use the printer quite often in the dark and the default white UI w
 Note: These issues are not planned to be fixed (The first two requires motherboard firmware modification from my understanding which is beyond my knowledge)
 - The file selection menu text becomes blue after being deselected instead of white
 - The number input page input text is blue instead of white
-- The UI is only available in english, the language button was disabled
+- The language button was disabled (This is not an issue in itself but I put it here so people can see it's no an issue)
 
 ### Other things to know
 I am not sure if providing all the information to make your own modded UI is a good idea, for now, if you really want to you can contact me and I will give you the key elements to make your own.
