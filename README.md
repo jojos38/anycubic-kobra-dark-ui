@@ -35,7 +35,7 @@ Here is my Discord: jojos38#1337
 ### Updating your printer screen to the latest version
 1. Go to your printer -> Settings -> About -> UI Version -> If you're on Anycubic_20211220 you can skip to installing the modded firmware
 2. Head on to the official page of the Anycubic Kobra (https://www.anycubic.com/products/kobra)
-3. Scroll down and download the Firmware V2.7.9 (Do NOT follow this procedure if the firmware is not this exact version as I don't know the consequences of a mismatching firmware)
+3. Scroll down and download the Firmware V2.7.9 OR you can build your own firmware from the Anycubic Github repository (V2.8.2).
 4. Follow the instructions in the Read Me.txt of their file
 5. If the installation succeed you should see `SD card Process... END !` at the top, you can then turn off the printer and remove the SD card
 
