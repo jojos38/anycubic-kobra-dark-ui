@@ -28,8 +28,7 @@ Note: These issues are not planned to be fixed (The first two requires motherboa
 - The language button was disabled (This is not an issue in itself but I put it here so people can see it's no an issue)
 
 ### Other things to know
-I am not sure if providing all the information to make your own modded UI is a good idea, for now, if you really want to you can contact me and I will give you the key elements to make your own.
-Here is my Discord: jojos38#1337
+You can build the UI yourself using the DGUS Editor software and by opening the project in it. The .icl file contains all the compressed images, so if you want to update to edit the images you only need to rebuild the .icl file.
 
 # How to install
 ### Updating your printer screen to the latest version
