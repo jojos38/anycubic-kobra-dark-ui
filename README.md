@@ -40,7 +40,7 @@ You can build the UI yourself using the DGUS Editor software and by opening the 
 
  ### Installing the modded UI firmware
  1. Download the latest release in the release tab (https://github.com/jojos38/ancubic-kobra-dark-ui/releases)
- 2. Unzip the DWIN_SET folder at the root of your SD card, do not put anything else but this folder, if you had the old folder from the official firmware, **remove it before**
+ 2. Unzip the DWIN_SET folder at the root of your SD card (make sure to use a reliable SD card, the one shipped with the printer is not), do not put anything else but this folder, if you had the old folder from the official firmware, **remove it before**
  3. Turn off your printer put the SD card **under the screen**, not in the printer the body. Make sure to leave it unplugged for 10 - 20 seconds to make sure the caps can discharge (Thanks to SineVVAVz for the tip)
  4. Turn on your printer and wait until you see `SD card Process... END !` on the second line, do NOT turn off the printer before this line appears. The process shoudn't take more than 5 minutes unless your SD card is broken or very slow
  5. Make sure the number next to .BIN Files shows `003` and the number next to .ICL Files `001`
