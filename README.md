@@ -28,7 +28,7 @@ Note: These issues are not planned to be fixed (The first two requires motherboa
 - The language button was disabled (This is not an issue in itself but I put it here so people can see it's no an issue)
 
 ### Other things to know
-You can build the UI yourself using the DGUS Editor software and by opening the project in it. The .icl file contains all the compressed images, so if you want to update to edit the images you only need to rebuild the .icl file.
+You can build the UI yourself using the DGUS Editor software and by opening the project in it. The .icl file contains all the compressed images, so if you want to update the images you only need to rebuild the .icl file.
 
 # How to install
 ### Updating your printer screen to the latest version
